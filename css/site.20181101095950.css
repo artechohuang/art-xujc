@@ -22,10 +22,10 @@ video:fullscreen{max-width:100% !important;}
 html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 #body{background-color:rgb(255,255,255);}
 .vis{display:inline-block;vertical-align:top;}
-.pos{position:relative;margin-top:7px;}
+.pos{position:relative;margin-top:0;}
 .size{width:100%;min-width:1200px;min-height:327px;}
 .cont{z-index:1;pointer-events:none;border:0;background-image:url(../images/ding-960.jpg);background-color:rgb(184,200,210);background-repeat:no-repeat;background-position:50% 50%;background-size:cover;background-clip:padding-box;}
-.pos-2{position:relative;margin-top:17px;}
+.pos-2{position:relative;margin-top:24px;}
 .vis-2{display:block;vertical-align:top;}
 .section{min-width:1200px;width:1200px;margin-left:auto;margin-right:auto;}
 .pos-3{position:relative;margin-left:22px;margin-top:0;}
@@ -58,7 +58,7 @@ html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 .cont-8{z-index:7;pointer-events:auto;}
 .img-5{position:absolute;left:0;width:148px;height:53px;top:17px;border:0;}
 .img-6{left:0;width:148px;height:53px;top:17px;display:inline-block;}
-.pos-10{position:relative;margin-top:-64px;}
+.pos-10{position:relative;margin-top:-57px;}
 .section-2{pointer-events:none;min-width:1200px;width:1200px;margin-left:auto;margin-right:auto;}
 .pos-11{position:relative;margin-left:0;margin-top:0;}
 .size-10{min-width:1200px;width:1200px;min-height:359px;height:359px;}
