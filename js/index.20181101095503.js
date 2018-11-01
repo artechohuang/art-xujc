@@ -1,0 +1,72 @@
+(function(d){var h=[];d.loadImages=function(a,e){"string"==typeof a&&(a=[a]);for(var f=a.length,g=0,b=0;b<f;b++){var c=document.createElement("img");c.onload=function(){g++;g==f&&d.isFunction(e)&&e()};c.src=a[b];h.push(c)}}})(window.jQuery);
+$.fn.hasAttr = function(name) { var attr = $(this).attr(name); return typeof attr !== typeof undefined && attr !== false; };
+
+var lwi=-1;function thresholdPassed(){var w=$(window).width();var p=false;var cw=0;if(w>=1200){cw++;}if(lwi!=cw){p=true;}lwi=cw;return p;}
+
+$(document).ready(function() {
+r=function(){if(thresholdPassed()){dpi=window.devicePixelRatio;if($(window).width()>=1200){$('.js').attr('src', (dpi>1) ? 'images/yi-shelogo-394.png' : 'images/yi-shelogo-197.png');
+$('.js-2').attr('src', (dpi>1) ? 'images/jia-yi15nian-664.png' : 'images/jia-yi15nian-332.png');
+$('.js-3').attr('src', (dpi>1) ? 'images/top-img-right-296.png' : 'images/top-img-right-148.png');
+$('.js-4').attr('src', 'images/huo-dong-an-pai-1200.jpg');
+$('.js-5').attr('src', 'images/icon-1-32.png');
+$('.js-6').attr('src', 'images/icon-2-26.png');
+$('.js-7').attr('src', 'images/icon-3-32.png');
+$('.js-8').attr('src', (dpi>1) ? 'images/con-2-568.jpg' : 'images/con-2-284.jpg');
+$('.js-9').attr('src', (dpi>1) ? 'images/con-3-568.jpg' : 'images/con-3-284.jpg');
+$('.js-10').attr('src', (dpi>1) ? 'images/con-4-574.jpg' : 'images/con-4-287.jpg');
+$('.js-11').attr('src', (dpi>1) ? 'images/con-5-568.jpg' : 'images/con-5-284.jpg');
+$('.js-12').attr('src', (dpi>1) ? 'images/con-6-568.jpg' : 'images/con-6-284.jpg');
+$('.js-13').attr('src', (dpi>1) ? 'images/con-7-574.jpg' : 'images/con-7-287.jpg');
+$('.js-14').attr('src', (dpi>1) ? 'images/shi-wu-nian-you-ni-554.png' : 'images/shi-wu-nian-you-ni-277.png');
+$('.js-15').attr('src', (dpi>1) ? 'images/1-572.jpg' : 'images/1-286.jpg');
+$('.js-16').attr('src', (dpi>1) ? 'images/2-572.jpg' : 'images/2-286.jpg');
+$('.js-17').attr('src', (dpi>1) ? 'images/3-572.jpg' : 'images/3-286.jpg');
+$('.js-18').attr('src', (dpi>1) ? 'images/4-572.jpg' : 'images/4-286.jpg');
+$('.js-19').attr('src', (dpi>1) ? 'images/5-572.jpg' : 'images/5-286.jpg');
+$('.js-20').attr('src', (dpi>1) ? 'images/6-572.jpg' : 'images/6-286.jpg');
+$('.js-21').attr('src', (dpi>1) ? 'images/7-572.jpg' : 'images/7-286.jpg');
+$('.js-22').attr('src', (dpi>1) ? 'images/8-572.jpg' : 'images/8-286.jpg');
+$('.js-23').attr('src', (dpi>1) ? 'images/9-572.jpg' : 'images/9-286.jpg');
+$('.js-24').attr('src', (dpi>1) ? 'images/10-572.jpg' : 'images/10-286.jpg');
+$('.js-25').attr('src', (dpi>1) ? 'images/11-572.jpg' : 'images/11-286.jpg');
+$('.js-26').attr('src', (dpi>1) ? 'images/12-572.jpg' : 'images/12-286.jpg');
+$('.js-27').attr('src', (dpi>1) ? 'images/13-572.jpg' : 'images/13-286.jpg');
+$('.js-28').attr('src', (dpi>1) ? 'images/14-572.jpg' : 'images/14-286.jpg');
+$('.js-29').attr('src', (dpi>1) ? 'images/15-572.jpg' : 'images/15-286.jpg');
+$('.js-30').attr('src', (dpi>1) ? 'images/16-572.jpg' : 'images/16-286.jpg');
+$('.js-31').attr('src', (dpi>1) ? 'images/17-572.jpg' : 'images/17-286.jpg');
+$('.js-32').attr('src', (dpi>1) ? 'images/18-572.jpg' : 'images/18-286.jpg');}else{$('.js').attr('src', (dpi>1) ? 'images/yi-shelogo-276.png' : 'images/yi-shelogo-138.png');
+$('.js-2').attr('src', (dpi>1) ? 'images/jia-yi15nian-558.png' : 'images/jia-yi15nian-279.png');
+$('.js-3').attr('src', (dpi>1) ? 'images/top-img-right-270.png' : 'images/top-img-right-135.png');
+$('.js-4').attr('src', (dpi>1) ? 'images/huo-dong-an-pai-1918.jpg' : 'images/huo-dong-an-pai-959.jpg');
+$('.js-5').attr('src', (dpi>1) ? 'images/icon-1-44.png' : 'images/icon-1-22.png');
+$('.js-6').attr('src', (dpi>1) ? 'images/icon-2-36.png' : 'images/icon-2-18.png');
+$('.js-7').attr('src', (dpi>1) ? 'images/icon-3-40.png' : 'images/icon-3-20.png');
+$('.js-8').attr('src', (dpi>1) ? 'images/con-2-498.jpg' : 'images/con-2-249.jpg');
+$('.js-9').attr('src', (dpi>1) ? 'images/con-3-498.jpg' : 'images/con-3-249.jpg');
+$('.js-10').attr('src', (dpi>1) ? 'images/con-4-502.jpg' : 'images/con-4-251.jpg');
+$('.js-11').attr('src', (dpi>1) ? 'images/con-5-498.jpg' : 'images/con-5-249.jpg');
+$('.js-12').attr('src', (dpi>1) ? 'images/con-6-498.jpg' : 'images/con-6-249.jpg');
+$('.js-13').attr('src', (dpi>1) ? 'images/con-7-504.jpg' : 'images/con-7-252.jpg');
+$('.js-14').attr('src', (dpi>1) ? 'images/shi-wu-nian-you-ni-504.png' : 'images/shi-wu-nian-you-ni-252.png');
+$('.js-15').attr('src', (dpi>1) ? 'images/1-516.jpg' : 'images/1-258.jpg');
+$('.js-16').attr('src', (dpi>1) ? 'images/2-516.jpg' : 'images/2-258.jpg');
+$('.js-17').attr('src', (dpi>1) ? 'images/3-516.jpg' : 'images/3-258.jpg');
+$('.js-18').attr('src', (dpi>1) ? 'images/4-516.jpg' : 'images/4-258.jpg');
+$('.js-19').attr('src', (dpi>1) ? 'images/5-516.jpg' : 'images/5-258.jpg');
+$('.js-20').attr('src', (dpi>1) ? 'images/6-516.jpg' : 'images/6-258.jpg');
+$('.js-21').attr('src', (dpi>1) ? 'images/7-516.jpg' : 'images/7-258.jpg');
+$('.js-22').attr('src', (dpi>1) ? 'images/8-516.jpg' : 'images/8-258.jpg');
+$('.js-23').attr('src', (dpi>1) ? 'images/9-516.jpg' : 'images/9-258.jpg');
+$('.js-24').attr('src', (dpi>1) ? 'images/10-516.jpg' : 'images/10-258.jpg');
+$('.js-25').attr('src', (dpi>1) ? 'images/11-516.jpg' : 'images/11-258.jpg');
+$('.js-26').attr('src', (dpi>1) ? 'images/12-516.jpg' : 'images/12-258.jpg');
+$('.js-27').attr('src', (dpi>1) ? 'images/13-516.jpg' : 'images/13-258.jpg');
+$('.js-28').attr('src', (dpi>1) ? 'images/14-516.jpg' : 'images/14-258.jpg');
+$('.js-29').attr('src', (dpi>1) ? 'images/15-516.jpg' : 'images/15-258.jpg');
+$('.js-30').attr('src', (dpi>1) ? 'images/16-516.jpg' : 'images/16-258.jpg');
+$('.js-31').attr('src', (dpi>1) ? 'images/17-516.jpg' : 'images/17-258.jpg');
+$('.js-32').attr('src', (dpi>1) ? 'images/18-516.jpg' : 'images/18-258.jpg');}}};
+if(!window.HTMLPictureElement){$(window).resize(r);r();}
+
+});
